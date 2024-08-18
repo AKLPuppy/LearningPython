@@ -23,10 +23,20 @@ print(a.strip())
 a = "Hello, Candice! How are you?"
 print(a.replace("o", "J"))	
 
+6. hello = "Hello, hello, halo!!" 
+# what is the index number of 'lo' in halo? 
+# Solution 1 -- Manually count
 
+
+# Solution 2 -- Non-manually count
+
+
+7. what is the index number of the third 'new'
 newLine = 'new new xnew!'
-# what is the index number of the third 'new' (using 'x')? 
+
 firstIndex = newLine.index('new')
 newIndex = firstIndex + 1
 secondIndex = newLine.index('new', newIndex)
 print(newLine.index('new', secondIndex + 1))
+
+# what is the index number of the third 'new' (using 'x')? 
