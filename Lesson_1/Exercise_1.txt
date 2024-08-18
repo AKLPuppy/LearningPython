@@ -27,7 +27,9 @@
 
 4. what is the output of the following code?
 	x = 4 + 'abc'
-	print(x)
+	print(x)  
+	# 4abc
+	x = '4' + 'abc'
 
 
 5. what is the output of the following code?
