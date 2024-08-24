@@ -29,6 +29,24 @@ print(a.replace("o", "J"))
 
 
 # Solution 2 -- Non-manually count
+hello = "Hello, hello, halo!!" 
+# what is the index number of 'lo' in halo? 
+
+# Solution 2 -- Non-manually count
+
+#.index(x, y) = find first x, starts from y
+#.index(x) = find first x, starts from 0
+firstLo = hello.index('lo', 3)  # 3  
+print(firstLo) # 3
+
+
+secondLo = hello.index('lo', hello.index(' '))
+print(secondLo)
+
+txt = 'Hello, hello, ha'
+thirdLo =  hello.index('lo', hello.index(txt) + len(txt))
+print(thirdLo)
+
 
 
 7. what is the index number of the third 'new'
