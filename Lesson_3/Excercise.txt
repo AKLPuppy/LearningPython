@@ -28,7 +28,6 @@ print(a.replace("o", "J"))
 # Solution 1 -- Manually count
 
 
-# Solution 2 -- Non-manually count
 hello = "Hello, hello, halo!!" 
 # what is the index number of 'lo' in halo? 
 
